@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Registration Form</title>
+</head>
+<body>
+    <b><h1>FORM</h1></b>
+    <form action="file2.html" method="get" target="_self">
+        <b><label for="first nameID">Name:</label></b>
+        <input type="text" name="firstname" Id="firstnameID" placeholder="EnterName" required>
+        <br>
+        <br>
+        <b><label>EmailAddress:</label></b>
+        <input type="email" name="emailaddress" placeholder="EnterEmail" required>
+        <br>
+        <br>
+        <b><label>Password:</label></b>
+        <input type="password" name="password" placeholder="Password" required>
+        <br>
+        <br>
+        <b><label>Language:</label></b><br>
+        <br>
+        <input type="radio" name="language" value="React" required>
+        React <br>
+        <input type="radio" name="language" value="Angular" required>
+        Angular <br>
+        <input type="radio" name="language" value="vue" required>
+        Vue
+        <br>
+        <br>
+        <b><label>Course:</label></b><br>
+        <br>
+        <input type="checkbox" name="course"  value="MERN" equired>
+        MERN <br>
+        <input type="checkbox" name="course"  value="MEAN" equired>
+        MEAN <br>
+        <input type="checkbox" name="course"  value="MEVN" equired>
+        MEVN
+        <br>
+        <br>
+        <label>Field:</label>
+        <select name="field" required>
+            <option value="option">Option</option>
+            <option value="Frontend">Frontend</option>
+            <option value="Backend">Backend</option>
+            <option value="Fullstack">Full stack</option>
+        </select>
+        <br>
+        <br>
+        <b><label>About:</label></b> 
+        <textarea name="About" cols="30" rows="5"></textarea>
+        <br>
+        <br>
+        <b><label>Phone Number:</label></b> 
+        <input type="tel" name="phone Number" required>
+        <button value="Submit">Submit</button>
+        <b><h1>*TABLE*</h1></b>
+        <a href="./file3.html">Click Here</a>
+
+    </form>
+</body>
+</html>
